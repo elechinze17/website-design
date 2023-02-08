@@ -132,7 +132,7 @@ h4{
 }
 
 .about img{
-    height: auto;
+    height: 400px;
     width: 430px;
     justify-content: right;
     position: relative;
@@ -140,7 +140,8 @@ h4{
 }
 
 .about-text{
-    width: 550;
+    width: 200px;
+    justify-content: left;
     
 }
 
@@ -175,6 +176,7 @@ h4{
     margin-bottom: 45px ;
     letter-spacing: 1px;
     line-height: 28px;
+    align-items: right;
 
 }
 
