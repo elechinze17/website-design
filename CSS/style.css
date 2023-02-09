@@ -271,6 +271,80 @@ h5{
 }
 
 .contact-me{
-    
+    width: 100%;
+    height: 290px;
+    background: rgb(116, 166, 166);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.contact-me p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color: wheat;
+    color: darkcyan;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.contact-me .button-two:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solid wheat;
+}
+
+.media .button-three{
+    background-color: wheat;
+    color: darkcyan;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+.media .button-three:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solid wheat;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background: rgb(92, 137, 137);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+footer p:nth-child(1){
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+footer p:nth-last-child(2){
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: centergit;
+}
