@@ -198,7 +198,7 @@ button:hover{
 } 
 
 .service{
-    background: #896942;
+    background: wheat;
     width: 100%;
     padding: 100px 0px;
 
@@ -238,3 +238,39 @@ button:hover{
     margin: 25px opx;
     color:darkcyan;
 }
+
+h5{
+    color:#000;
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+.pra p{
+    color: darkcyan;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 25px;
+
+}
+
+.card .button{
+    background-color: darkcyan;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.card .button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 2px solid darkcyan;
+}
+
+.contact-me{
+    
+}
+
